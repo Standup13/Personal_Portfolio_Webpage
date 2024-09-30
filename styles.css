@@ -14,7 +14,7 @@ body {
 header {
     display:flex;
     background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(30,30,176,0.9250383435582822) 96%);    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(30,30,176,0.9250383435582822) 100%);    
     color: white;
     position: fixed;
     width: 100%;
@@ -79,9 +79,26 @@ h1 {
 }
 
 #projects {
+    display: grid;
     padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     background-color:#71c5e8;
+}
+
+#projects h2{
+    max-width: 640px;
+    font-size: 40px;
+    margin: 0 auto 6rem auto;
+    color:white;
+    border-bottom: solid 0.2rem white;
+}
+
+#projects-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    row-gap: 3rem;
 }
 
 .project-tile {
@@ -93,7 +110,15 @@ h1 {
     background-color: #303841;;
     border-bottom: solid rgba(255, 0, 0, 0.644) 5px;
     list-style-type: none;
+    text-align: center;
     padding: 20px 0;
+}
+
+#contact h2{
+    max-width: 450px;
+    font-size: 40px;
+    margin: 0 auto 0 auto;
+    color:white;
 }
 
 ul {
@@ -101,6 +126,9 @@ ul {
 }
 
 #contact ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     list-style-type: none;
     text-decoration: none;
 }
@@ -112,10 +140,12 @@ ul {
 }
 
 footer {
+    display: flex;
     text-align: center;
     padding: 20px;
     background-color: #303841;
     color: #f4f4f4;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 768px) {
