@@ -4,7 +4,7 @@
 
 ![Static Badge](https://img.shields.io/badge/linux-FCC624?style=for-the-badge&logo=linux&logoColor=FCC624&logoSize=auto&labelColor=black) ![Static Badge](https://img.shields.io/badge/ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=E95420&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=F05032&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=181717&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/visual%20studio%20code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/html%205-E34F26?style=for-the-badge&logo=html5&logoColor=E34F26&logoSize=auto&labelColor=white) ![Static Badge](https://img.shields.io/badge/css%203-1572B6?style=for-the-badge&logo=css3&logoColor=1572B6&logoSize=auto&labelColor=white) 
 
-![screenshot](./app_screenshot.png)
+![screenshot](./Page-preview.PNG)
 
 The main goal of this project is to highlight my technical and creative capabilities, as well as to provide an accessible way for interested parties to learn more about my professional background. Furthermore, this portfolio will serve as a valuable tool in my search for job opportunities in the web development field.
 
@@ -16,8 +16,7 @@ The main goal of this project is to highlight my technical and creative capabili
 
 ## Live Demo
 
-[Live Demo Link](https://standup13.github.io/Personal_Portfolio_Webpage
-/)
+[Live Demo Link](https://standup13.github.io/Personal_Portfolio_Webpage/)
 
 ## Getting Started
 
