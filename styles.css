@@ -30,12 +30,11 @@ nav ul {
     padding: 0;
     font-size: 25px;
     margin-right: 20px;
-
 }
 
 nav ul li {
     display: inline-block;
-    padding: 5vh;
+    padding: 2vh;
 }
 
 nav a {
@@ -84,32 +83,32 @@ h1 {
     justify-content: center;
     align-items: center;
     align-content: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 8em 2em;
     text-align: center;
     background-color:#71c5e8;
 }
 
 #projects h2{
-    max-width: 640px;
-    font-size: 40px;
-    margin: 0 auto 6rem auto;
+    font-size: 3.2rem;
+    margin: 0 auto 4rem auto;
     color:white;
     border-bottom: solid 0.2rem white;
 }
 
 #projects-grid {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 450px 450px 450px;
     grid-gap: 4rem;
     width: 100%;
-    max-width: 1280px;
+    max-width: 1500px;
 }
 
 .project-tile {
     margin-bottom: 20px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
+    width: 100%;
+    max-width: 1280px;
 }
 
 .project-image {
@@ -118,22 +117,37 @@ h1 {
     object-fit: cover;
 }
 
+.project-tile a {
+    text-decoration: none;
+}
+
 .project-tile p {
     display: flex;
     justify-content: center;
     color:white;
     font-size: 1.75rem;
-    font-style: normal;
-
 }
 
 .show-all {
+    display: grid;
+    grid-column: 2;
+    justify-self: center;
     color:white;
     width: 6em;
-    align-self:center;
     font-size: 2rem;
+    padding: 0.5rem 0.7rem;
     background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     transition: background 0.3s ease-out;
+    text-decoration: none;
+    font-family: "Merriweather", serif;
+}
+
+.show-all a {
+    font-size: 10px;
+}
+
+.show-all:hover{
+    background: blue;
 }
 
 #contact {
@@ -157,19 +171,40 @@ ul {
     padding: 0;
 }
 
-#contact ul{
+#container-links {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
+}
+
+#contact a{
+    justify-content: center;
     list-style-type: none;
     text-decoration: none;
 }
 
-#contact ul li a {
+#contact a {
     list-style-type: none;
     text-decoration: none;
     color: #f4f4f4;
 }
+
+#contact a i {
+    padding-right: 7px;
+}
+
+.profile-link:hover {
+    transform: translateY(8px);
+}
+
+.profile-link {
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;  
+}
+
+.fa-brandsfa-square-facebook {
+    color: red;
+  }
 
 footer {
     display: flex;
