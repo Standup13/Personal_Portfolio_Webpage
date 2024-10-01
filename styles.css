@@ -34,23 +34,24 @@ nav ul {
     font-size: 25px;
     margin-right: 20px;
     gap:10px;
-
 }
 
 nav ul li {
-    display: inline-block;
-    
+    display: block;
 }
 
 nav a {
+    display: block;
     color: white;
     text-decoration: none;
-    padding:10px;
+    padding: 0 1rem;
 }
 
 nav ul li:hover {
     margin-top: 1px;
-    background: #45567d;;
+    background: #45567d;
+    height: auto;
+
 }
 
 #welcome-section {
