@@ -45,7 +45,8 @@ header ul li a:hover {
     display: block;
     background: #020202;
     align-self:center;
-    transform: translateX(2px);}
+    transform: translateX(2px);
+}
 
 a {
     text-decoration: none;
@@ -147,10 +148,6 @@ h1 {
     transition-duration: 0.5s;
 }
 
-.textproject {
-
-}
-
 .show-all {
     color:white;
     width: 6em;
@@ -168,6 +165,16 @@ h1 {
 
 .show-all:hover{
     background: blue;
+}
+
+.show-all:hover>i{
+    transform: translateX(5px);
+    transition-duration: 500ms;
+}
+
+.show-all:not(:hover)>i{
+    transform: translateX(0px);
+    transition-duration: 500ms;
 }
 
 #contact {
